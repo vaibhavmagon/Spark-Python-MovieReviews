@@ -4,12 +4,10 @@ This is a script with dataset to run and find similarities between from a big da
 
 # Files
 
-1. Big dataset with over 1,00,000 movie reviews.
-2. Movie similarities script.
+1. Big movie dataset with over 1,00,000 movie reviews from https://grouplens.org/datasets/movielens/.
+2. Movie similarities script in python.
 
 # To Run
 
 1. Dependencies installed (Spark, Python etc.)
-2. spark-submit movie-similarities.py #id (The id of the movie to find similarities for, 50 is for star wars!).
-
-
+2. > spark-submit movie-similarities.py #id (The id of the movie to find similarities for, 50 is for star wars!).
